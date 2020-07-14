@@ -108,7 +108,7 @@ button:focus {
 
 .section_titel h2 {
   font-family: "Montserrat", sans-serif;
-  font-weight: 800;
+  font-weight: 600;
   font-size: 58px;
   line-height: 58px;
   color: #080A28;
@@ -531,11 +531,11 @@ button:focus {
 }
 
 .about_area .about_content .about_txt h2 {
-  font-weight: 700;
+  font-weight: 600;
   font-size: 40px;
   line-height: 1.3;
   color: #080A28;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 .about_area .about_content .about_txt p {
@@ -1354,7 +1354,7 @@ button:focus {
 
 .copyright_area .copy_right h4 {
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 500;
   color: #fff;
   line-height: 1.5;
   text-align: center;
