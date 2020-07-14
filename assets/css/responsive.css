@@ -39,16 +39,16 @@
     padding: 80px 0 80px 0;
   }
   .hero_area {
-    height: 56vh;
+    height: 80vh;
   }
   .hero_area .hero_content {
     top: 30%;
     left: 16px;
-    transform: translateY(60%);
-    -webkit-transform: translateY(60%);
-    -moz-transform: translateY(60%);
-    -ms-transform: translateY(60%);
-    -o-transform: translateY(60%);
+    transform: translateY(46%);
+    -webkit-transform: translateY(46%);
+    -moz-transform: translateY(46%);
+    -ms-transform: translateY(46%);
+    -o-transform: translateY(46%);
   }
   .hero_area .hero_content .hero_greating {
     font-size: 16px;
@@ -392,7 +392,7 @@
     right: 0;
   }
   .hero_area {
-    height: 60vh;
+    height: 80vh;
   }
   .hero_area .hero_content {
     top: 72%;
@@ -406,7 +406,7 @@
     font-size: 16px;
   }
   .hero_area .hero_content h1 {
-    font-size: 26px;
+    font-size: 22px;
   }
   .hero_area .hero_content p {
     font-size: 14px;
@@ -437,9 +437,9 @@
     padding: 50px 8px;
   }
   .services_area .services_item .service_titel h4 {
-    font-size: 18px;
+    font-size: 16px;
   }
-  .services_area .services_item .service_titel p {
+  .services_area .services_item .service_txt p {
     font-size: 14px;
   }
   .services_area .services_sp {
@@ -497,10 +497,17 @@
     left: 20px;
   }
   .hero_area {
-    height: 70vh;
+    height: 100vh;
+  }
+  .hero_area .hero_content {
+    transform: translateY(-12%);
+    -webkit-transform: translateY(-12%);
+    -moz-transform: translateY(-12%);
+    -ms-transform: translateY(-12%);
+    -o-transform: translateY(-12%);
   }
   .hero_area .hero_content h1 {
-    font-size: 36px;
+    font-size: 30px;
   }
   .hero_area .hero_content .hero_btn ul li a.btn {
     font-size: 14px;
@@ -512,10 +519,11 @@
   .hero_area .hero_img::before {
     height: 44vh;
     top: 186px;
-    right: 70px;
+    right: 12px;
   }
   .hero_area .hero_img img {
-    right: -12px;
+    width: 78%;
+    right: -38px;
   }
   .about_area .about_img img {
     width: 76%;
@@ -548,7 +556,7 @@
     padding: 50px 11px;
   }
   .services_area .services_item .service_titel h4 {
-    font-size: 18px;
+    font-size: 14px;
   }
   .services_area .services_item .service_txt p {
     font-size: 14px;
@@ -600,18 +608,31 @@
     padding: 0 12px;
   }
   .hero_area {
-    height: 80vh;
+    height: 100vh;
+  }
+  .hero_area .hero_content {
+    transform: translateY(-22%);
+    -webkit-transform: translateY(-22%);
+    -moz-transform: translateY(-22%);
+    -ms-transform: translateY(-22%);
+    -o-transform: translateY(-22%);
+  }
+  .hero_area .hero_content h1 {
+    font-size: 40px;
+  }
+  .hero_area .hero_img img {
+    width: 68%;
   }
   .hero_area .hero_img::before {
     height: 50vh;
-    top: 207px;
+    top: 199px;
     right: 75px;
   }
   .about_area .about_img::before {
     width: 87%;
   }
   .services_area .services_item .service_titel h4 {
-    font-size: 20px;
+    font-size: 16px;
   }
   .portfolio_area .portfolio_item .overlay .hover_btn {
     top: 140px;
@@ -625,13 +646,14 @@
 
 @media (min-width: 1200px) and (max-width: 1280px) {
   .hero_area .hero_img img {
-    top: 96px;
+    width: 60%;
+    top: 78px;
     right: -112px;
   }
   .hero_area .hero_img::before {
     width: 56%;
     height: 58vh;
-    top: 144px;
+    top: 150px;
     right: 91px;
   }
 }

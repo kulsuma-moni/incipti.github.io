@@ -398,8 +398,8 @@ padding: 100px 0 60px 0;
         }
 
         h1{
-            font-weight: 700;
-            font-size: 46px;
+            font-weight: 600;
+            font-size: 44px;
             line-height: $txt-line-height;
             color: $txt-color;
             text-transform: capitalize;
@@ -465,7 +465,7 @@ padding: 100px 0 60px 0;
 
         img {
             position: relative;
-            top: 96px;
+            top: 100px;
             right: -64px;
         }
         &::before{
@@ -697,7 +697,7 @@ padding: 100px 0 60px 0;
         .service_titel{
             h4{
                 font-weight: 700;
-                font-size: 24px;
+                font-size: 20px;
                 line-height: $txt-line-height;
                 color: $txt-color;
                 text-transform: capitalize;
@@ -1202,7 +1202,7 @@ padding: 100px 0 60px 0;
     }
     .social_media{
         h6{
-            font-weight: 700;
+            font-weight: 600;
             font-size: 20px;
             line-height: $txt-line-height;
             color: $txt-color;
@@ -1293,7 +1293,7 @@ padding: 100px 0 60px 0;
     .copy_right{
         h4{
             font-size: 20px;
-            font-weight: 700;
+            font-weight: 600;
             color: #fff;
             line-height: $txt-line-height;
             text-align: center;

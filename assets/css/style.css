@@ -397,8 +397,8 @@ button:focus {
 }
 
 .hero_area .hero_content h1 {
-  font-weight: 700;
-  font-size: 46px;
+  font-weight: 600;
+  font-size: 44px;
   line-height: 1.5;
   color: #080A28;
   text-transform: capitalize;
@@ -466,7 +466,7 @@ button:focus {
 
 .hero_area .hero_img img {
   position: relative;
-  top: 96px;
+  top: 100px;
   right: -64px;
 }
 
@@ -709,7 +709,7 @@ button:focus {
 
 .services_area .services_item .service_titel h4 {
   font-weight: 700;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 1.5;
   color: #080A28;
   text-transform: capitalize;
@@ -1225,7 +1225,7 @@ button:focus {
 }
 
 .contact_area .social_media h6 {
-  font-weight: 700;
+  font-weight: 600;
   font-size: 20px;
   line-height: 1.5;
   color: #080A28;
@@ -1354,7 +1354,7 @@ button:focus {
 
 .copyright_area .copy_right h4 {
   font-size: 20px;
-  font-weight: 700;
+  font-weight: 600;
   color: #fff;
   line-height: 1.5;
   text-align: center;

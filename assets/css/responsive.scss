@@ -84,17 +84,16 @@ $dark_theme:#222222;
             padding: 80px 0 80px 0;
           }
           .hero_area{
-                height: 56vh;
+                height: 80vh;
                     .hero_content {
                     top: 30%;
                     left: 16px;
-                    transform: translateY(60%);
-                    -webkit-transform: translateY(60%);
-                    -moz-transform: translateY(60%);
-                    -ms-transform: translateY(60%);
-                    -o-transform: translateY(60%);
-
-                    .hero_greating{
+                    transform: translateY(46%);
+                    -webkit-transform: translateY(46%);
+                    -moz-transform: translateY(46%);
+                    -ms-transform: translateY(46%);
+                    -o-transform: translateY(46%);
+                .hero_greating{
                         font-size: 16px;
                     }
                     h1{
@@ -481,7 +480,7 @@ $dark_theme:#222222;
             }
         }
         .hero_area {
-            height: 60vh;
+            height: 80vh;
             .hero_content {
                 top: 72%;
                 transform: translateY(-27%);
@@ -493,7 +492,7 @@ $dark_theme:#222222;
                     font-size: 16px;
                     }
                     h1 {
-                        font-size: 26px;
+                        font-size: 22px;
                     }
                     p {
                         font-size: 14px;
@@ -539,8 +538,10 @@ $dark_theme:#222222;
                 padding: 50px 8px;
                 .service_titel{
                     h4 {
-                        font-size: 18px;
+                        font-size: 16px;
                     }
+                }
+                .service_txt{
                     p {
                         font-size: 14px;
                     }
@@ -623,10 +624,15 @@ $dark_theme:#222222;
             }
         }
         .hero_area{
-            height: 70vh;
+            height: 100vh;
             .hero_content{
-                h1 {
-                    font-size: 36px;
+                transform: translateY(-12%);
+                -webkit-transform: translateY(-12%);
+                -moz-transform: translateY(-12%);
+                -ms-transform: translateY(-12%);
+                -o-transform: translateY(-12%);
+                h1{
+                    font-size: 30px;
                 }
                 .hero_btn{
                     ul{
@@ -646,10 +652,11 @@ $dark_theme:#222222;
                 &::before {
                     height: 44vh;
                     top: 186px;
-                    right: 70px;
+                    right: 12px;
                 }
                 img {
-                    right: -12px;
+                    width: 78%;
+                    right: -38px;
                 }
             }
         }
@@ -697,7 +704,7 @@ $dark_theme:#222222;
                 padding: 50px 11px;
                 .service_titel{
                     h4 {
-                        font-size: 18px;
+                        font-size: 14px;
                     }
                 }
                 .service_txt{
@@ -774,11 +781,24 @@ $dark_theme:#222222;
             padding: 0 12px;
         }
         .hero_area{
-            height: 80vh;
+            height: 100vh;
+            .hero_content{
+                transform: translateY(-22%);
+                -webkit-transform: translateY(-22%);
+                -moz-transform: translateY(-22%);
+                -ms-transform: translateY(-22%);
+                -o-transform: translateY(-22%);
+                h1{
+                    font-size:40px ;
+                }
+            }
             .hero_img{
+                img{
+                    width: 68%;
+                }
                 &::before {
                     height: 50vh;
-                    top: 207px;
+                    top: 199px;
                     right: 75px;
                     }
             }
@@ -794,7 +814,7 @@ $dark_theme:#222222;
             .services_item{
                 .service_titel{
                     h4 {
-                        font-size: 20px;
+                        font-size: 16px;
                     }
                 }
             }
@@ -826,13 +846,14 @@ $dark_theme:#222222;
             .hero_area{
                 .hero_img{
                         img{
-                            top: 96px;
+                            width: 60%;
+                            top: 78px;
                             right: -112px;
                         }
                     &::before{
                         width: 56%;
                         height: 58vh;
-                        top: 144px;
+                        top: 150px;
                         right: 91px;
                     }
                 }
