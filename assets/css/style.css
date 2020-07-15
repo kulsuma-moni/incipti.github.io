@@ -304,7 +304,46 @@ button:focus {
 
 .main_menu .menu ul li {
   display: inline-block;
+  padding: 0 18px;
+  position: relative;
+}
+
+.main_menu .menu ul li .sub_menu {
+  position: absolute;
+  background: #fff;
+  width: 200px;
+  top: 145%;
+  padding: 20px 0px;
+  opacity: 1;
+  visibility: hidden;
+  -webkit-box-shadow: 0px 0px 27px 0px #e5e5e5;
+          box-shadow: 0px 0px 27px 0px #e5e5e5;
+  left: 0px;
+  transition: .3s;
+  -webkit-transition: .3s;
+  -moz-transition: .3s;
+  -ms-transition: .3s;
+  -o-transition: .3s;
+  text-align: left;
+}
+
+.main_menu .menu ul li .sub_menu li {
+  display: block;
+  width: 100%;
+  position: relative;
   padding: 0 20px;
+}
+
+.main_menu .menu ul li .sub_menu li a {
+  font-size: 14px;
+  line-height: 1;
+  padding: 16px 0;
+  display: block;
+}
+
+.main_menu .menu ul li:hover .sub_menu {
+  visibility: visible;
+  opacity: 1;
 }
 
 .main_menu .menu ul li:last-child {
@@ -320,14 +359,19 @@ button:focus {
 }
 
 .main_menu .menu ul li a {
-  font-family: 'Titillium Web', sans-serif;
-  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
   font-size: 16px;
   line-height: 40px;
   color: #5E3EF8;
   display: block;
   position: relative;
   letter-spacing: 0.5;
+}
+
+.main_menu .menu ul li a i {
+  font-weight: 600;
+  font-size: 18px;
 }
 
 .main_menu .menu ul li a::after {
