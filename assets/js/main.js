@@ -123,7 +123,7 @@
 		});
 
 
-	// ARTICAL INNER PAGE FILTER
+	// portfolio FILTER
 		$('.grid').isotope({
 		itemSelector: '.grid-item',
 		});

@@ -237,7 +237,121 @@ $dark_theme:#222222;
     .copyright_area{
         .copy_right{
             h4 {
-                font-size: 14px;
+                font-size: 12px;
+            }
+        }
+    }
+
+    .blog_page_area{
+        .blog_page{
+            .blog_ctn{
+                .blog_img{
+                    figure {
+                        width: 288px;
+                        height: 190px;
+                    }
+                }
+                .blog_date{
+                    .date {
+                        font-size: 18px;
+                    }
+                    .month {
+                        font-size: 14px;
+                    }
+                }
+            }
+            .pagination {
+                margin: 30px 0 0px 0px;
+                li{
+                    a {
+                        font-size: 14px;
+                        margin-left: 1px;
+                        width: 25px;
+                        height: 25px;
+                        line-height: 24px;
+                    }
+                }
+            }
+
+        }
+        .sidebar_area{
+            .search_bar {
+                margin-top: 50px;
+            }
+            .recent_news{
+                .single_news{
+                    margin-bottom: 40px;
+                    h5 {
+                        font-size: 14px;
+                    }
+                }
+
+            }
+        }
+    }
+
+    .inner_banner{
+        .inner_ctn{
+            .singel_text{
+                h2{
+                    font-size: 40px;
+                }
+            }
+        }
+    }
+    .singel_blog_page{
+
+        .singel_blog_area{
+
+            .singel_blog_ctn{
+
+                .blog_img{
+
+                    img {
+                        width: 100%;
+                        height: 240px;
+                    }
+                }
+                .singel_blog_txt{
+                    a{
+                        h3 {
+                            font-size: 16px;
+                        }
+                    }
+                    p {
+                        font-size: 14px;
+                    }
+                   .singel_blog_middle_box{
+                        .middle_box_txt{
+                            margin-top: 30px;
+                        }
+                   }
+                }
+            }
+            .blog_comment{
+
+                .single_coment{
+
+                    .text {
+                        margin-left: 0;
+                        margin-top: 150px;
+                    }
+                }
+            }
+        }
+        .sidebar_area {
+            margin-top: 40px;
+            .recent_news{
+                .single_news {
+                    h5 {
+                        font-size: 14px;
+                    }
+                }
+            }
+            .sidebar_title{
+                h3 {
+                    margin: 50px 0 20px 0;
+                }
             }
         }
     }
@@ -582,6 +696,38 @@ $dark_theme:#222222;
             }
         }
 
+        .blog_page_area{
+            .blog_page{
+                .blog_ctn{
+                        width: 380px;
+                        margin: 0 auto 40px auto;
+                    .blog_img{
+                        figure {
+                            width: 380px;
+                            height: 240px;
+                        }
+                    }
+                }
+                .pagination {
+                    margin: 30px 0 0 84px;
+                }
+            }
+            .sidebar_area{
+                .search_bar {
+                    margin-top: 50px;
+                }
+            }
+        }
+        .sidebar_area {
+            margin-top: 40px;
+
+            .sidebar_title{
+                h3 {
+                    margin: 50px 0 20px 0 !important;
+                }
+            }
+        }
+
     }
 
     // Small devices (landscape phones, 576px and up)
@@ -762,6 +908,28 @@ $dark_theme:#222222;
                 }
             }
         }
+
+        .blog_page_area .blog_page .blog_ctn .blog_img figure {
+            width: 328px;
+            height: 200px;
+        }
+        .blog_page_area .sidebar_area .search_bar {
+            margin-top: 50px;
+        }
+        .blog_page_area .sidebar_area .recent_news .single_news {
+            margin-bottom: 40px;
+        }
+        .sidebar_area {
+            margin-top: 40px;
+            
+            .sidebar_title{
+                h3 {
+                    margin: 50px 0 20px 0 !important;
+                }
+            }
+        }
+
+      
     }
     
     // Large devices (desktops, 992px and up)
@@ -838,6 +1006,13 @@ $dark_theme:#222222;
                     }
                 }
             }
+        }
+        .blog_page_area .blog_page .blog_ctn .blog_img figure {
+            width: 288px;
+            height: 190px;
+        }
+        .singel_blog_page .sidebar_area .recent_news .single_news h5 {
+            font-size: 14px;
         }
     }
 
